@@ -33,6 +33,16 @@ public class StudiKasus205 {
                     }else{
                         System.out.println("Tidak mendapatkan penghargaan");
                     }
-        } 
+        } else if (jenisKegiatan.equalsIgnoreCase("PKM")) {
+                System.out.print("Status pendanaan PKM (1 = lolos, 0 = tidak): ");
+                int pkm = ael.nextInt();
+                if (pkm == 1) {
+                    System.out.println("Dana penghargaan diberikan.");
+                } else {
+                    System.out.println("Dana penghargaan tidak diberikan.");
+                }
+            } else {
+                System.out.println("Kegiatan lainnya tidak memperoleh dana penghargaan.");
+            }
     }
 }
