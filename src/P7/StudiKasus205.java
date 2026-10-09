@@ -16,6 +16,23 @@ public class StudiKasus205 {
         System.out.println("Jumlah Dokumen yang di upload (0-4): ");
         jmlDokumen = ael.nextInt();
 
-        
+        if (jenisKegiatan.equalsIgnoreCase("BELMAWA") || jenisKegiatan.equalsIgnoreCase("BAKORMA")
+                || jenisKegiatan.equalsIgnoreCase("Mandiri")) {
+                    System.out.println("Peringkat Juara (1,2,3 isi 0 jika itdak juara): ");
+                    peringkat = ael.nextInt();
+
+                    if (peringkat >= 1 && peringkat <= 3) {
+                        if (jmlDokumen ==4 ) {
+                            System.out.println("Mendapatkan dana penghargaan");
+                            System.out.println("Semua dokumen lengkap");
+
+                        } else {
+                            System.out.println("Tidak mendapatkan penghargaan");
+                            System.out.println("Dokumen Belum lengkap kurang " + jmlDokumen);
+                        }
+                    }else{
+                        System.out.println("Tidak mendapatkan penghargaan");
+                    }
+        } 
     }
 }
