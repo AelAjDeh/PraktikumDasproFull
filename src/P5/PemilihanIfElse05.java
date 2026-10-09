@@ -1,0 +1,33 @@
+package P5;
+
+import java.util.Scanner;
+
+public class PemilihanIfElse05 {
+    public static void main(String[] args) {
+        Scanner ael = new Scanner(System.in);
+
+        System.out.println("-----CETAK KRS SIAKAD-----");
+        System.out.println("Masukkan Semester saat ini");
+        int semester = ael.nextInt();
+
+        if (semester == 1) {
+            System.out.println("KRS Semester 1 ditampilkan");
+        } else if (semester == 2) {
+            System.out.println("KRS Semester 2 ditampilkan");
+        } else if (semester == 3) {
+            System.out.println("KRS Semester 3 ditampilkann");
+        } else if (semester == 4) {
+            System.out.println("KRS Semester 4 ditampilkan");
+        } else if (semester == 5) {
+            System.out.println("KRS Semester 5 ditampilkan");
+        } else if (semester == 6) {
+            System.out.println("KRS Semester 6 ditampilkan");
+        } else if (semester == 7) {
+            System.out.println("KRS Semester 7 ditampilkan");
+        } else if (semester == 8) {
+            System.out.println("KRS Semester  ditampilkan");
+        } else {
+            System.out.println("Semester tidak valid");
+        }
+    }
+}
