@@ -40,5 +40,7 @@ public class PemilihanSwitch05 {
                 System.out.println("Semester tidak valid");
                 break;
         }
+
+        System.out.println("tes");
     }
 }
