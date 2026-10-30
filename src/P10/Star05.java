@@ -9,7 +9,7 @@ public class Star05 {
         System.out.print("Masukkan nilai n: ");
         int n = ael.nextInt();
 
-        for (int i = 1; i < n; i+=2) {
+        for (int i = 1; i <= n; i--) {
             System.out.print(i +" ");
         }
 
