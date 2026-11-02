@@ -11,10 +11,10 @@ public class Triangle05 {
 
         int i = 1;
         while (i <= n ) {
-            int j = 0;
-            while (j < i) {
+            int j = 6;
+            while (j > i) {
                 System.out.print("*");
-                j++;
+                j--;
             }
             i++;
             System.out.println("");
